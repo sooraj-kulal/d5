@@ -34,3 +34,5 @@ steps:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'artifcatfile1'
     publishLocation: 'Container'
+- task: PublishBuildArtifacts@1
+    
